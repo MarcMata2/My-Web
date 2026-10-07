@@ -1,0 +1,82 @@
+body {
+    margin: 20px;
+}
+
+body {
+    background: white;
+}
+
+.clock {
+    position: absolute;
+    top: 279%;
+    left: 19%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #E8710A;
+    font-size: 50px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+
+
+
+}
+
+/* ---------- Lo nuevo: colores, fuente y lineas ---------- */
+/* Colores: blanco, negro, naranja (#E8710A) y dorado (#D4AF37) */
+
+/* Fuente y color del texto */
+body {
+    font-family: Georgia, serif;
+    color: black;
+}
+
+/* Titulo principal: fondo negro, letras doradas y linea naranja */
+h1 {
+    background: black;
+    color: #D4AF37;
+    padding: 15px;
+    border-bottom: 5px solid #E8710A;
+}
+
+/* Subtitulos: naranja con linea dorada debajo */
+h2 {
+    color: #E8710A;
+    border-bottom: 3px solid #D4AF37;
+}
+
+h3 {
+    color: black;
+    border-left: 6px solid #E8710A;
+    padding-left: 10px;
+}
+
+/* Lineas horizontales doradas */
+hr {
+    border: none;
+    height: 4px;
+    background: #D4AF37;
+}
+
+/* Lista: puntos naranjas */
+li::marker {
+    color: #E8710A;
+}
+
+/* Palabras destacadas y enlace */
+strong {
+    color: #E8710A;
+}
+
+a {
+    color: #E8710A;
+}
+
+/* Tabla de resenyas con bordes dorados */
+table,
+td {
+    border: 2px solid #D4AF37;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+}
